@@ -1,0 +1,21 @@
+{
+    "name": "tustin/codleague-stats",
+    "description": "PHP library for querying Call of Duty League match stats",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Tustin\\CodLeague\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tustin"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.5",
+        "tustin/haste": "^1.1",
+        "nesbot/carbon": "^2.66"
+    }
+}
